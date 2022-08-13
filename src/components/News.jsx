@@ -21,7 +21,7 @@ const News = (props) => {
   };
 
   useEffect(() => {
-    document.title = `${this.props.category} - News Everday`;
+    document.title = `${props.category} - News Everday`;
     updateNews();
     // eslint-disable-next-line
   }, []);
